@@ -9,8 +9,8 @@ require("./Button.css");
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 function Button(props) {
   return /*#__PURE__*/_react.default.createElement("button", {
-    className: "btn"
-  }, "Hi ", props.label);
+    className: "btn ".concat(props.size, " ").concat(props.type)
+  }, props.label);
 }
 var _default = Button;
 exports.default = _default;
