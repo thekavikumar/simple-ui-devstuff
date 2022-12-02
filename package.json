@@ -9,7 +9,7 @@
   ],
   "repository": "thekavikumar/simple-ui-devstuff",
   "homepage": "https://github.com/thekavikumar/simple-ui-devstuff",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "private": false,
   "main": "dist/index.js",
   "module": "dist/index.js",
