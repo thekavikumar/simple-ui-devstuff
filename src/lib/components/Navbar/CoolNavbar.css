@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.nav {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav .logo {
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: #000;
+  text-decoration: none;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 28%;
+}
+
+.links a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+  font-size: 1rem;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.loginBtn {
+  background-color: #fff;
+  color: #000;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 1px solid #000;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.loginBtn:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.links a:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .nav {
+    flex-direction: column;
+    padding: 20px 0;
+  }
+
+  .links {
+    width: 100%;
+    justify-content: space-evenly;
+  }
+
+  .links a {
+    padding: 10px 0;
+  }
+}
+
+.nav {
+  /* Apply box shadow */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
