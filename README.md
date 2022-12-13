@@ -1,3 +1,5 @@
+![downloads](https://img.shields.io/npm/dm/simple-ui-devstuff?style=for-the-badge)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
