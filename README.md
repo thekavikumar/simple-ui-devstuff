@@ -1,72 +1,53 @@
-![downloads](https://img.shields.io/npm/dm/simple-ui-devstuff?style=for-the-badge)
+# Getting Started
 
-# Getting Started with Create React App
+Welcome to simple-ui-devstuff, a npm library for easily integrating UI components into your web projects. This library contains a variety of pre-designed and fully customizable components, ranging from simple buttons and form elements to more complex and interactive components such as carousels and modals. All of the components are designed to be responsive and work seamlessly across a range of devices and screen sizes.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+With simple-ui-devstuff, you can quickly and easily add professional-quality UI elements to your projects, saving time and effort in the process. Whether you're a seasoned developer or just starting out, simple-ui-devstuff has something to offer for everyone. So why wait? Start incorporating simple-ui-devstuff into your projects today and see the difference it can make!
 
-## Available Scripts
+## Installation
 
-In the project directory, you can run:
+To install simple-ui-devstuff via npm, follow these steps:
 
-### `npm start`
+- Open a terminal window and navigate to your project directory
+- Run the following command: `npm install simple-ui-devstuff`
+- Wait for the installation to complete. This may take a few minutes depending on your network connection and the size of the package.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Alternatively, you can add simple-ui-devstuff as a dependency to your project by including it in your package.json file. To do this, run the following command in your terminal: `npm install simple-ui-devstuff --save`
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Usage
 
-### `npm test`
+To use simple-ui-devstuff in your project, you must first import the library into your project. To do this, add the following line to the top of your JavaScript file:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```js filename="App.js" {1} copy
+import { component } from "simple-ui-devstuff";
+```
 
-### `npm run build`
+Once you've imported the library, you can use any of the components it contains. For example, to use the ShoppingCard component, simply add the following line to your code:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```js filename="App.js" {1,6} copy
+import { ShoppingCard } from "simple-ui-devstuff";
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+function App() {
+  return (
+    <div className="App">
+      <ShoppingCard />
+    </div>
+  );
+}
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Contributing
 
-### `npm run eject`
+Contributions are welcome! If you'd like to contribute to simple-ui-devstuff, please follow these steps:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Fork this repository
+- Create a new branch: `git checkout -b <branch_name>`
+- Make your changes and commit them: `git commit -m '<commit_message>'`
+- Push to the original branch: `git push origin simple-ui-devstuff/<location>`
+- Create the pull request
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Alternatively, you can create a new issue if you find a bug or have a feature request.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## License
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project uses the following license: [MIT](https://choosealicense.com/licenses/mit/).
