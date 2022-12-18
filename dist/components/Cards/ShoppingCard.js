@@ -15,7 +15,8 @@ function ShoppingCard(_ref) {
     price,
     image,
     btnTitle,
-    description
+    description,
+    btnOnClick
   } = _ref;
   let items = [];
   for (let i = 0; i < rate; i++) {
@@ -43,7 +44,8 @@ function ShoppingCard(_ref) {
   }, description), /*#__PURE__*/_react.default.createElement("div", {
     className: "control"
   }, /*#__PURE__*/_react.default.createElement("button", {
-    className: "btn"
+    className: "btn",
+    onClick: btnOnClick
   }, /*#__PURE__*/_react.default.createElement("span", {
     className: "price"
   }, "$", price), /*#__PURE__*/_react.default.createElement("span", {
