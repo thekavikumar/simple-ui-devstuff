@@ -1,7 +1,15 @@
 import React from "react";
 import "./ShoppingCard.css";
 
-function ShoppingCard({ title, rate, price, image, btnTitle, description }) {
+function ShoppingCard({
+  title,
+  rate,
+  price,
+  image,
+  btnTitle,
+  description,
+  btnOnClick,
+}) {
   let items = [];
   for (let i = 0; i < rate; i++) {
     items.push(<i class="fa fa-star" aria-hidden="true"></i>);
@@ -23,7 +31,7 @@ function ShoppingCard({ title, rate, price, image, btnTitle, description }) {
           <p className="information">{description}</p>
 
           <div className="control">
-            <button className="btn">
+            <button className="btn" onClick={btnOnClick}>
               <span className="price">${price}</span>
               <span className="shopping-cart">
                 <i className="fa fa-shopping-cart" aria-hidden="true"></i>
