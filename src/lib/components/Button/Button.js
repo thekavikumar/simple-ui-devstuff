@@ -1,9 +1,13 @@
 import React from "react";
 import "./Button.css";
 
-function Button(props) {
+function Button({ label, btnOnClick }) {
   return (
-    <button className={`btn ${props.size} ${props.type}`}>{props.label}</button>
+    <div className="">
+      <button class="button-29" role="button" onClick={btnOnClick}>
+        {label}
+      </button>
+    </div>
   );
 }
 

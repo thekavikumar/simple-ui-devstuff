@@ -5,11 +5,14 @@
   "keywords": [
     "react",
     "components",
-    "ui"
+    "ui",
+    "open-source",
+    "javascript",
+    "react-js"
   ],
   "repository": "thekavikumar/simple-ui-devstuff",
   "homepage": "simple-ui-devstuff.vercel.app",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "private": false,
   "main": "dist/index.js",
   "module": "dist/index.js",
