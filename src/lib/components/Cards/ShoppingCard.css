@@ -141,6 +141,13 @@
   display: inline-block;
 }
 
+.information {
+  font-family: "Popins", sans-serif;
+  margin: 5px;
+  font-size: 1.2em;
+  text-align: left;
+}
+
 #container img {
   width: 100%;
   height: 100%;

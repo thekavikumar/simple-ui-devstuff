@@ -37,7 +37,7 @@ function ShoppingCard(_ref) {
   }, /*#__PURE__*/_react.default.createElement("h1", null, title), /*#__PURE__*/_react.default.createElement("span", {
     className: "hint-star star"
   }, items.map((key, item) => {
-    return item;
+    return key;
   })), /*#__PURE__*/_react.default.createElement("p", {
     className: "information"
   }, description), /*#__PURE__*/_react.default.createElement("div", {

@@ -16,7 +16,7 @@ function ShoppingCard({ title, rate, price, image, btnTitle, description }) {
           <h1>{title}</h1>
           <span className="hint-star star">
             {items.map((key, item) => {
-              return item;
+              return key;
             })}
           </span>
 
